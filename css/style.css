@@ -1,12 +1,20 @@
-/* Default height for small devices */
-    #intro-example {
-      height: 400px;
-    }
+/* start header home section */
 
-    /* Height for devices larger than 992px */
-    @media (min-width: 992px) {
-      #intro-example {
-        height: 600px;
-      }
-    }
-  
+.header-home{
+    height: 600px;
+    background-image: url(../img/docttot.jpeg);
+    background-size: cover;
+}
+
+
+
+/* end header home section */
+
+
+/* start touch home section */
+
+.touch-home{
+    background: url(../img/green.jpeg) , url(../img/love\ my.jpeg);
+    background-size: cover;
+}
+/* end touch home section */
