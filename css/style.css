@@ -1,20 +1,3 @@
-/* start header home section */
-
-.header-home{
-    height: 600px;
-    background-image: url(../img/docttot.jpeg);
-    background-size: cover;
-}
-
-
-
-/* end header home section */
-
-
-/* start touch home section */
-
-.touch-home{
-    background: url(../img/green.jpeg) , url(../img/love\ my.jpeg);
-    background-size: cover;
-}
-/* end touch home section */
+#id
+.classname
+tagName
