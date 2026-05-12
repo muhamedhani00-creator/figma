@@ -1,18 +1,22 @@
-// case sensative
-// document.getElementById('demo').innerHTML = "Hellow Worled From Js Code";
+function convertData(){
+    var dollar = document.getElementById("dollar").value.trim();
+    var result = document.getElementById("result");
 
-// document.getElementById('demo').style.color = "red";
-
-// document.getElementById('demo').style.backgroundColor = "blue";
-
-document.getElementById('lion').onclick = function(){
-    document.getElementById('result').innerHTML = Date();
+    if(dollar==""){
+        result.innerHTML = "Enter Value";
+        // return false
+    }else if (isNaN(dollar)){
+        result.innerHTML = "Enter Number Not Text";
+        // return false
+    }else if (dollar<0){
+        result.innerHTML = "Enter Postive Number";
+        // return false
+    }else if (dpllar==0){
+        result.innerHTML = "Enter Number Rather Than Zero";
+        // return false
+    }else{
+        result.innerHTML = doolar * 50 + "Egyption Pound";
+        // return false
+    }
+    return false
 }
-
-document.getElementById('turnon').onclick = function(){
-    document.getElementById('myImage').src ='img/منورة.gif'
-}
-document.getElementById('turnoff').onclick = function(){
-    document.getElementById('myImage').src ='img/مطفيه.gif'
-}
-
